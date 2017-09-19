@@ -37,7 +37,22 @@ class FirstTableViewController: UITableViewController {
                 ingredient[i] = cell.EnterTextField.text!
             }
             print(ingredient)
+            let controller = segue.destination as! SecondCollectionViewController
+            controller.delegate = self
+            controller.url = apiCall(array: ingredient)
         }
+    }
+    
+    func apiCall(array: [String]) -> URL{
+        var extra = String()
+        for ingred in ingredient {
+            extra += ingred
+            if ingred != ingredient[ingredient.count-1]{
+                extra += ","
+            }
+        }
+        let url = URL(string: "http://www.recipepuppy.com/api/?i=\(extra)")
+        return url!
     }
     
     override func didReceiveMemoryWarning() {
