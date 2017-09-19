@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		449EECC91F71E0EA0010CFE0 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449EECC81F71E0EA0010CFE0 /* CustomCollectionCell.swift */; };
 		713250DA1F71C0EB00ECD3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713250D91F71C0EB00ECD3B4 /* AppDelegate.swift */; };
 		713250DF1F71C0EB00ECD3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713250DD1F71C0EB00ECD3B4 /* Main.storyboard */; };
 		713250E21F71C0EB00ECD3B4 /* hack3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713250E01F71C0EB00ECD3B4 /* hack3.xcdatamodeld */; };
@@ -16,8 +17,7 @@
 		713250FD1F71C0EB00ECD3B4 /* hack3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713250FC1F71C0EB00ECD3B4 /* hack3UITests.swift */; };
 		7132510B1F71C1EA00ECD3B4 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */; };
 		7132510D1F71C21100ECD3B4 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7132510C1F71C21100ECD3B4 /* FirstTableViewCell.swift */; };
-		7132510F1F71C2CA00ECD3B4 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7132510E1F71C2CA00ECD3B4 /* SecondTableViewCell.swift */; };
-		713251111F71C2DF00ECD3B4 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713251101F71C2DF00ECD3B4 /* SecondTableViewController.swift */; };
+		713251111F71C2DF00ECD3B4 /* SecondCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713251101F71C2DF00ECD3B4 /* SecondCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		449EECC81F71E0EA0010CFE0 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
 		713250D61F71C0EB00ECD3B4 /* hack3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hack3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713250D91F71C0EB00ECD3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713250DE1F71C0EB00ECD3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,8 +54,7 @@
 		713250FE1F71C0EB00ECD3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		7132510C1F71C21100ECD3B4 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
-		7132510E1F71C2CA00ECD3B4 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
-		713251101F71C2DF00ECD3B4 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		713251101F71C2DF00ECD3B4 /* SecondCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +109,8 @@
 				7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */,
 				7132510C1F71C21100ECD3B4 /* FirstTableViewCell.swift */,
 				713250DD1F71C0EB00ECD3B4 /* Main.storyboard */,
-				7132510E1F71C2CA00ECD3B4 /* SecondTableViewCell.swift */,
-				713251101F71C2DF00ECD3B4 /* SecondTableViewController.swift */,
+				713251101F71C2DF00ECD3B4 /* SecondCollectionViewController.swift */,
+				449EECC81F71E0EA0010CFE0 /* CustomCollectionCell.swift */,
 				713250E31F71C0EB00ECD3B4 /* Assets.xcassets */,
 				713250E51F71C0EB00ECD3B4 /* LaunchScreen.storyboard */,
 				713250E81F71C0EB00ECD3B4 /* Info.plist */,
@@ -272,8 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7132510B1F71C1EA00ECD3B4 /* FirstTableViewController.swift in Sources */,
-				713251111F71C2DF00ECD3B4 /* SecondTableViewController.swift in Sources */,
-				7132510F1F71C2CA00ECD3B4 /* SecondTableViewCell.swift in Sources */,
+				713251111F71C2DF00ECD3B4 /* SecondCollectionViewController.swift in Sources */,
+				449EECC91F71E0EA0010CFE0 /* CustomCollectionCell.swift in Sources */,
 				7132510D1F71C21100ECD3B4 /* FirstTableViewCell.swift in Sources */,
 				713250DA1F71C0EB00ECD3B4 /* AppDelegate.swift in Sources */,
 				713250E21F71C0EB00ECD3B4 /* hack3.xcdatamodeld in Sources */,
@@ -523,6 +523,7 @@
 				713251031F71C0EB00ECD3B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713251041F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "hack3Tests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +532,7 @@
 				713251061F71C0EB00ECD3B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713251071F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "hack3UITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +541,7 @@
 				713251091F71C0EB00ECD3B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
