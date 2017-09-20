@@ -17,7 +17,15 @@ class FirstTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        var imagesNames = ["chef-animation-1.tiff","chef-animation-2.tiff","chef-animation-3.tiff","chef-animation-4.tiff","chef-animation-5.tiff","chef-animation-6.tiff","chef-animation-7.tiff","chef-animation-8.tiff","chef-animation-9.tiff","chef-animation-10.tiff","chef-animation-11.tiff","chef-animation-12.tiff"]
+    
+        var images3 = [UIImage]()
+        for i in 0..<imagesNames.count {
+            images3.append(UIImage(named: imagesNames[i])!)
+        self.imageView.animationImages = images3
+        self.imageView.animationDuration = 4.0
+        self.imageView.startAnimating()
+        }
        
     }
 
