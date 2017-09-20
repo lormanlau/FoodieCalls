@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		449EECC91F71E0EA0010CFE0 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449EECC81F71E0EA0010CFE0 /* CustomCollectionCell.swift */; };
+		449EECCB1F721B4B0010CFE0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449EECCA1F721B4B0010CFE0 /* PageViewController.swift */; };
+		449EECCD1F721D4A0010CFE0 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449EECCC1F721D4A0010CFE0 /* CustomTableCell.swift */; };
 		713250DA1F71C0EB00ECD3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713250D91F71C0EB00ECD3B4 /* AppDelegate.swift */; };
 		713250DF1F71C0EB00ECD3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713250DD1F71C0EB00ECD3B4 /* Main.storyboard */; };
 		713250E21F71C0EB00ECD3B4 /* hack3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713250E01F71C0EB00ECD3B4 /* hack3.xcdatamodeld */; };
@@ -51,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		449EECC81F71E0EA0010CFE0 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		449EECCA1F721B4B0010CFE0 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		449EECCC1F721D4A0010CFE0 /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
 		713250D61F71C0EB00ECD3B4 /* hack3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hack3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713250D91F71C0EB00ECD3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713250DE1F71C0EB00ECD3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -134,8 +138,10 @@
 				7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */,
 				7132510C1F71C21100ECD3B4 /* FirstTableViewCell.swift */,
 				713250DD1F71C0EB00ECD3B4 /* Main.storyboard */,
+				449EECCA1F721B4B0010CFE0 /* PageViewController.swift */,
 				713251101F71C2DF00ECD3B4 /* SecondCollectionViewController.swift */,
 				449EECC81F71E0EA0010CFE0 /* CustomCollectionCell.swift */,
+				449EECCC1F721D4A0010CFE0 /* CustomTableCell.swift */,
 				713250E31F71C0EB00ECD3B4 /* Assets.xcassets */,
 				713250E51F71C0EB00ECD3B4 /* LaunchScreen.storyboard */,
 				713250E81F71C0EB00ECD3B4 /* Info.plist */,
@@ -328,7 +334,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7132510B1F71C1EA00ECD3B4 /* FirstTableViewController.swift in Sources */,
+				449EECCB1F721B4B0010CFE0 /* PageViewController.swift in Sources */,
 				713251111F71C2DF00ECD3B4 /* SecondCollectionViewController.swift in Sources */,
+				449EECCD1F721D4A0010CFE0 /* CustomTableCell.swift in Sources */,
 				449EECC91F71E0EA0010CFE0 /* CustomCollectionCell.swift in Sources */,
 				7132510D1F71C21100ECD3B4 /* FirstTableViewCell.swift in Sources */,
 				713250DA1F71C0EB00ECD3B4 /* AppDelegate.swift in Sources */,

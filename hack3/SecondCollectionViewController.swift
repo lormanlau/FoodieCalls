@@ -52,6 +52,18 @@ class SecondCollectionViewController: UICollectionViewController {
         // Actually "execute" the task. This is the line that actually makes the request that we set up above
         task.resume()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "pagesegue"{
+            let controller = segue.destination as! PageViewController
+            if let indexPath = sender as? IndexPath {
+                controller.food = foodlistDic[indexPath.row]
+                let temp = foodlistDic[indexPath.row].value(forKey: "ingredients") as! String
+                let ingredients = temp.components(separatedBy: ",")
+                controller.ingredients = ingredients
+            }
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -74,9 +86,10 @@ class SecondCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let url = NSURL(string: foodlistDic[indexPath.row].value(forKey: "href") as! String)
-        if UIApplication.shared.canOpenURL(url! as URL){
-            UIApplication.shared.openURL(url! as URL)
-        }
+//        let url = NSURL(string: foodlistDic[indexPath.row].value(forKey: "href") as! String)
+//        if UIApplication.shared.canOpenURL(url! as URL){
+//            UIApplication.shared.openURL(url! as URL)
+//        }
+        performSegue(withIdentifier: "pagesegue", sender: indexPath)
     }
 }
