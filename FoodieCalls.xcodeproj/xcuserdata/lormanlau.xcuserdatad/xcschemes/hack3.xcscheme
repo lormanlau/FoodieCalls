@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "713250D51F71C0EB00ECD3B4"
-               BuildableName = "hack3.app"
-               BlueprintName = "hack3"
-               ReferencedContainer = "container:hack3.xcodeproj">
+               BuildableName = "FoodieCalls.app"
+               BlueprintName = "FoodieCalls"
+               ReferencedContainer = "container:FoodieCalls.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "713250EC1F71C0EB00ECD3B4"
-               BuildableName = "hack3Tests.xctest"
-               BlueprintName = "hack3Tests"
-               ReferencedContainer = "container:hack3.xcodeproj">
+               BuildableName = "FoodieCallsTests.xctest"
+               BlueprintName = "FoodieCallsTests"
+               ReferencedContainer = "container:FoodieCalls.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "713250F71F71C0EB00ECD3B4"
-               BuildableName = "hack3UITests.xctest"
-               BlueprintName = "hack3UITests"
-               ReferencedContainer = "container:hack3.xcodeproj">
+               BuildableName = "FoodieCallsUITests.xctest"
+               BlueprintName = "FoodieCallsUITests"
+               ReferencedContainer = "container:FoodieCalls.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "713250D51F71C0EB00ECD3B4"
-            BuildableName = "hack3.app"
-            BlueprintName = "hack3"
-            ReferencedContainer = "container:hack3.xcodeproj">
+            BuildableName = "FoodieCalls.app"
+            BlueprintName = "FoodieCalls"
+            ReferencedContainer = "container:FoodieCalls.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "713250D51F71C0EB00ECD3B4"
-            BuildableName = "hack3.app"
-            BlueprintName = "hack3"
-            ReferencedContainer = "container:hack3.xcodeproj">
+            BuildableName = "FoodieCalls.app"
+            BlueprintName = "FoodieCalls"
+            ReferencedContainer = "container:FoodieCalls.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "713250D51F71C0EB00ECD3B4"
-            BuildableName = "hack3.app"
-            BlueprintName = "hack3"
-            ReferencedContainer = "container:hack3.xcodeproj">
+            BuildableName = "FoodieCalls.app"
+            BlueprintName = "FoodieCalls"
+            ReferencedContainer = "container:FoodieCalls.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

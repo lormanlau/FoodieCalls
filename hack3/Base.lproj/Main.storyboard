@@ -13,7 +13,7 @@
         <!--First Table View Controller-->
         <scene sceneID="c2f-GF-wBU">
             <objects>
-                <tableViewController id="jFC-SG-A6R" customClass="FirstTableViewController" customModule="hack3" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="jFC-SG-A6R" customClass="FirstTableViewController" customModule="FoodieCalls" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="GTa-im-fnc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +23,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dishcell1" rowHeight="100" id="Rob-ET-nHX" customClass="FirstTableViewCell" customModule="hack3" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dishcell1" rowHeight="100" id="Rob-ET-nHX" customClass="FirstTableViewCell" customModule="FoodieCalls" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="172" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rob-ET-nHX" id="46K-mK-nn3">
@@ -95,7 +95,7 @@
         <!--Second Collection View Controller-->
         <scene sceneID="naN-pK-7cv">
             <objects>
-                <collectionViewController id="p1F-BQ-YBD" customClass="SecondCollectionViewController" customModule="hack3" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="p1F-BQ-YBD" customClass="SecondCollectionViewController" customModule="FoodieCalls" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="NhG-Uq-oYi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +107,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="ikM-Pg-e6n" customClass="CustomCollectionCell" customModule="hack3" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="ikM-Pg-e6n" customClass="CustomCollectionCell" customModule="FoodieCalls" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -159,7 +159,7 @@
         <!--Page View Controller-->
         <scene sceneID="Y3A-5h-UN8">
             <objects>
-                <viewController id="T4L-sP-pfu" customClass="PageViewController" customModule="hack3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="T4L-sP-pfu" customClass="PageViewController" customModule="FoodieCalls" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4d1-4y-whW"/>
                         <viewControllerLayoutGuide type="bottom" id="m2F-lY-T9n"/>
@@ -186,7 +186,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="454"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PageCell" id="1Wb-RP-rWU" customClass="CustomTableCell" customModule="hack3" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PageCell" id="1Wb-RP-rWU" customClass="CustomTableCell" customModule="FoodieCalls" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="32"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Wb-RP-rWU" id="0OP-fv-LQb">
@@ -232,7 +232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TVw-lw-iDO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2788" y="109"/>
+            <point key="canvasLocation" x="2784" y="95"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XY7-1T-cQX">

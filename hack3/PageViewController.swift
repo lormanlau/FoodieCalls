@@ -14,9 +14,9 @@ class PageViewController: UIViewController {
     var ingredients: [String] = []
     
     @IBAction func goToSitePressed(_ sender: UIButton) {
-        let url = NSURL(string: food?.value(forKey: "href") as! String)
-        if UIApplication.shared.canOpenURL(url! as URL){
-            UIApplication.shared.openURL(url! as URL)
+        let url = URL(string: food?.value(forKey: "href") as! String)
+        if UIApplication.shared.canOpenURL(url as! URL){
+            UIApplication.shared.openURL(url as! URL)
         }
     }
     override func viewDidLoad() {

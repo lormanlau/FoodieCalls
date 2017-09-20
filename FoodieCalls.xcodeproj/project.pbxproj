@@ -55,17 +55,17 @@
 		449EECC81F71E0EA0010CFE0 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
 		449EECCA1F721B4B0010CFE0 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		449EECCC1F721D4A0010CFE0 /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
-		713250D61F71C0EB00ECD3B4 /* hack3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hack3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713250D61F71C0EB00ECD3B4 /* FoodieCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodieCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713250D91F71C0EB00ECD3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713250DE1F71C0EB00ECD3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		713250E11F71C0EB00ECD3B4 /* hack3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hack3.xcdatamodel; sourceTree = "<group>"; };
 		713250E31F71C0EB00ECD3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713250E61F71C0EB00ECD3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		713250E81F71C0EB00ECD3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		713250ED1F71C0EB00ECD3B4 /* hack3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hack3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		713250ED1F71C0EB00ECD3B4 /* FoodieCallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodieCallsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		713250F11F71C0EB00ECD3B4 /* hack3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack3Tests.swift; sourceTree = "<group>"; };
 		713250F31F71C0EB00ECD3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		713250F81F71C0EB00ECD3B4 /* hack3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hack3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		713250F81F71C0EB00ECD3B4 /* FoodieCallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodieCallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		713250FC1F71C0EB00ECD3B4 /* hack3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack3UITests.swift; sourceTree = "<group>"; };
 		713250FE1F71C0EB00ECD3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 		713250D71F71C0EB00ECD3B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				713250D61F71C0EB00ECD3B4 /* hack3.app */,
-				713250ED1F71C0EB00ECD3B4 /* hack3Tests.xctest */,
-				713250F81F71C0EB00ECD3B4 /* hack3UITests.xctest */,
+				713250D61F71C0EB00ECD3B4 /* FoodieCalls.app */,
+				713250ED1F71C0EB00ECD3B4 /* FoodieCallsTests.xctest */,
+				713250F81F71C0EB00ECD3B4 /* FoodieCallsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		713250D51F71C0EB00ECD3B4 /* hack3 */ = {
+		713250D51F71C0EB00ECD3B4 /* FoodieCalls */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 713251011F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "hack3" */;
+			buildConfigurationList = 713251011F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "FoodieCalls" */;
 			buildPhases = (
 				713250D21F71C0EB00ECD3B4 /* Sources */,
 				713250D31F71C0EB00ECD3B4 /* Frameworks */,
@@ -202,14 +202,14 @@
 			);
 			dependencies = (
 			);
-			name = hack3;
+			name = FoodieCalls;
 			productName = hack3;
-			productReference = 713250D61F71C0EB00ECD3B4 /* hack3.app */;
+			productReference = 713250D61F71C0EB00ECD3B4 /* FoodieCalls.app */;
 			productType = "com.apple.product-type.application";
 		};
-		713250EC1F71C0EB00ECD3B4 /* hack3Tests */ = {
+		713250EC1F71C0EB00ECD3B4 /* FoodieCallsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 713251041F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "hack3Tests" */;
+			buildConfigurationList = 713251041F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "FoodieCallsTests" */;
 			buildPhases = (
 				713250E91F71C0EB00ECD3B4 /* Sources */,
 				713250EA1F71C0EB00ECD3B4 /* Frameworks */,
@@ -220,14 +220,14 @@
 			dependencies = (
 				713250EF1F71C0EB00ECD3B4 /* PBXTargetDependency */,
 			);
-			name = hack3Tests;
+			name = FoodieCallsTests;
 			productName = hack3Tests;
-			productReference = 713250ED1F71C0EB00ECD3B4 /* hack3Tests.xctest */;
+			productReference = 713250ED1F71C0EB00ECD3B4 /* FoodieCallsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		713250F71F71C0EB00ECD3B4 /* hack3UITests */ = {
+		713250F71F71C0EB00ECD3B4 /* FoodieCallsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 713251071F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "hack3UITests" */;
+			buildConfigurationList = 713251071F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "FoodieCallsUITests" */;
 			buildPhases = (
 				713250F41F71C0EB00ECD3B4 /* Sources */,
 				713250F51F71C0EB00ECD3B4 /* Frameworks */,
@@ -238,9 +238,9 @@
 			dependencies = (
 				713250FA1F71C0EB00ECD3B4 /* PBXTargetDependency */,
 			);
-			name = hack3UITests;
+			name = FoodieCallsUITests;
 			productName = hack3UITests;
-			productReference = 713250F81F71C0EB00ECD3B4 /* hack3UITests.xctest */;
+			productReference = 713250F81F71C0EB00ECD3B4 /* FoodieCallsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -269,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 713250D11F71C0EB00ECD3B4 /* Build configuration list for PBXProject "hack3" */;
+			buildConfigurationList = 713250D11F71C0EB00ECD3B4 /* Build configuration list for PBXProject "FoodieCalls" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -282,9 +282,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				713250D51F71C0EB00ECD3B4 /* hack3 */,
-				713250EC1F71C0EB00ECD3B4 /* hack3Tests */,
-				713250F71F71C0EB00ECD3B4 /* hack3UITests */,
+				713250D51F71C0EB00ECD3B4 /* FoodieCalls */,
+				713250EC1F71C0EB00ECD3B4 /* FoodieCallsTests */,
+				713250F71F71C0EB00ECD3B4 /* FoodieCallsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -365,12 +365,12 @@
 /* Begin PBXTargetDependency section */
 		713250EF1F71C0EB00ECD3B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 713250D51F71C0EB00ECD3B4 /* hack3 */;
+			target = 713250D51F71C0EB00ECD3B4 /* FoodieCalls */;
 			targetProxy = 713250EE1F71C0EB00ECD3B4 /* PBXContainerItemProxy */;
 		};
 		713250FA1F71C0EB00ECD3B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 713250D51F71C0EB00ECD3B4 /* hack3 */;
+			target = 713250D51F71C0EB00ECD3B4 /* FoodieCalls */;
 			targetProxy = 713250F91F71C0EB00ECD3B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,7 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hack3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = my.hack3;
+				PRODUCT_BUNDLE_IDENTIFIER = my.FoodieCalls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -508,7 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hack3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = my.hack3;
+				PRODUCT_BUNDLE_IDENTIFIER = my.FoodieCalls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -524,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = my.hack3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hack3.app/hack3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodieCalls.app/FoodieCalls";
 			};
 			name = Debug;
 		};
@@ -538,7 +538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = my.hack3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hack3.app/hack3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodieCalls.app/FoodieCalls";
 			};
 			name = Release;
 		};
@@ -571,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		713250D11F71C0EB00ECD3B4 /* Build configuration list for PBXProject "hack3" */ = {
+		713250D11F71C0EB00ECD3B4 /* Build configuration list for PBXProject "FoodieCalls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				713250FF1F71C0EB00ECD3B4 /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		713251011F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "hack3" */ = {
+		713251011F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "FoodieCalls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				713251021F71C0EB00ECD3B4 /* Debug */,
@@ -589,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		713251041F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "hack3Tests" */ = {
+		713251041F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "FoodieCallsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				713251051F71C0EB00ECD3B4 /* Debug */,
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		713251071F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "hack3UITests" */ = {
+		713251071F71C0EB00ECD3B4 /* Build configuration list for PBXNativeTarget "FoodieCallsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				713251081F71C0EB00ECD3B4 /* Debug */,
