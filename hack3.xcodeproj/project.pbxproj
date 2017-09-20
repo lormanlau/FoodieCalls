@@ -18,6 +18,18 @@
 		7132510B1F71C1EA00ECD3B4 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */; };
 		7132510D1F71C21100ECD3B4 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7132510C1F71C21100ECD3B4 /* FirstTableViewCell.swift */; };
 		713251111F71C2DF00ECD3B4 /* SecondCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713251101F71C2DF00ECD3B4 /* SecondCollectionViewController.swift */; };
+		713251A61F72117000ECD3B4 /* chef-animation-1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7132519A1F72117000ECD3B4 /* chef-animation-1.tiff */; };
+		713251A71F72117000ECD3B4 /* chef-animation-10.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7132519B1F72117000ECD3B4 /* chef-animation-10.tiff */; };
+		713251A81F72117000ECD3B4 /* chef-animation-11.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7132519C1F72117000ECD3B4 /* chef-animation-11.tiff */; };
+		713251A91F72117000ECD3B4 /* chef-animation-12.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7132519D1F72117000ECD3B4 /* chef-animation-12.tiff */; };
+		713251AA1F72117000ECD3B4 /* chef-animation-2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7132519E1F72117000ECD3B4 /* chef-animation-2.tiff */; };
+		713251AB1F72117000ECD3B4 /* chef-animation-3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7132519F1F72117000ECD3B4 /* chef-animation-3.tiff */; };
+		713251AC1F72117000ECD3B4 /* chef-animation-4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A01F72117000ECD3B4 /* chef-animation-4.tiff */; };
+		713251AD1F72117000ECD3B4 /* chef-animation-5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A11F72117000ECD3B4 /* chef-animation-5.tiff */; };
+		713251AE1F72117000ECD3B4 /* chef-animation-6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A21F72117000ECD3B4 /* chef-animation-6.tiff */; };
+		713251AF1F72117000ECD3B4 /* chef-animation-7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A31F72117000ECD3B4 /* chef-animation-7.tiff */; };
+		713251B01F72117000ECD3B4 /* chef-animation-8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A41F72117000ECD3B4 /* chef-animation-8.tiff */; };
+		713251B11F72117000ECD3B4 /* chef-animation-9.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A51F72117000ECD3B4 /* chef-animation-9.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +67,18 @@
 		7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		7132510C1F71C21100ECD3B4 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
 		713251101F71C2DF00ECD3B4 /* SecondCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewController.swift; sourceTree = "<group>"; };
+		7132519A1F72117000ECD3B4 /* chef-animation-1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-1.tiff"; sourceTree = "<group>"; };
+		7132519B1F72117000ECD3B4 /* chef-animation-10.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-10.tiff"; sourceTree = "<group>"; };
+		7132519C1F72117000ECD3B4 /* chef-animation-11.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-11.tiff"; sourceTree = "<group>"; };
+		7132519D1F72117000ECD3B4 /* chef-animation-12.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-12.tiff"; sourceTree = "<group>"; };
+		7132519E1F72117000ECD3B4 /* chef-animation-2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-2.tiff"; sourceTree = "<group>"; };
+		7132519F1F72117000ECD3B4 /* chef-animation-3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-3.tiff"; sourceTree = "<group>"; };
+		713251A01F72117000ECD3B4 /* chef-animation-4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-4.tiff"; sourceTree = "<group>"; };
+		713251A11F72117000ECD3B4 /* chef-animation-5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-5.tiff"; sourceTree = "<group>"; };
+		713251A21F72117000ECD3B4 /* chef-animation-6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-6.tiff"; sourceTree = "<group>"; };
+		713251A31F72117000ECD3B4 /* chef-animation-7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-7.tiff"; sourceTree = "<group>"; };
+		713251A41F72117000ECD3B4 /* chef-animation-8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-8.tiff"; sourceTree = "<group>"; };
+		713251A51F72117000ECD3B4 /* chef-animation-9.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-9.tiff"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +129,7 @@
 		713250D81F71C0EB00ECD3B4 /* hack3 */ = {
 			isa = PBXGroup;
 			children = (
+				713251991F72117000ECD3B4 /* images3 */,
 				713250D91F71C0EB00ECD3B4 /* AppDelegate.swift */,
 				7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */,
 				7132510C1F71C21100ECD3B4 /* FirstTableViewCell.swift */,
@@ -135,6 +160,25 @@
 				713250FE1F71C0EB00ECD3B4 /* Info.plist */,
 			);
 			path = hack3UITests;
+			sourceTree = "<group>";
+		};
+		713251991F72117000ECD3B4 /* images3 */ = {
+			isa = PBXGroup;
+			children = (
+				7132519A1F72117000ECD3B4 /* chef-animation-1.tiff */,
+				7132519B1F72117000ECD3B4 /* chef-animation-10.tiff */,
+				7132519C1F72117000ECD3B4 /* chef-animation-11.tiff */,
+				7132519D1F72117000ECD3B4 /* chef-animation-12.tiff */,
+				7132519E1F72117000ECD3B4 /* chef-animation-2.tiff */,
+				7132519F1F72117000ECD3B4 /* chef-animation-3.tiff */,
+				713251A01F72117000ECD3B4 /* chef-animation-4.tiff */,
+				713251A11F72117000ECD3B4 /* chef-animation-5.tiff */,
+				713251A21F72117000ECD3B4 /* chef-animation-6.tiff */,
+				713251A31F72117000ECD3B4 /* chef-animation-7.tiff */,
+				713251A41F72117000ECD3B4 /* chef-animation-8.tiff */,
+				713251A51F72117000ECD3B4 /* chef-animation-9.tiff */,
+			);
+			path = images3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +288,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713251A71F72117000ECD3B4 /* chef-animation-10.tiff in Resources */,
+				713251A91F72117000ECD3B4 /* chef-animation-12.tiff in Resources */,
+				713251A81F72117000ECD3B4 /* chef-animation-11.tiff in Resources */,
+				713251AD1F72117000ECD3B4 /* chef-animation-5.tiff in Resources */,
 				713250E71F71C0EB00ECD3B4 /* LaunchScreen.storyboard in Resources */,
+				713251A61F72117000ECD3B4 /* chef-animation-1.tiff in Resources */,
 				713250E41F71C0EB00ECD3B4 /* Assets.xcassets in Resources */,
+				713251AA1F72117000ECD3B4 /* chef-animation-2.tiff in Resources */,
+				713251AB1F72117000ECD3B4 /* chef-animation-3.tiff in Resources */,
+				713251AC1F72117000ECD3B4 /* chef-animation-4.tiff in Resources */,
+				713251B01F72117000ECD3B4 /* chef-animation-8.tiff in Resources */,
+				713251AF1F72117000ECD3B4 /* chef-animation-7.tiff in Resources */,
+				713251AE1F72117000ECD3B4 /* chef-animation-6.tiff in Resources */,
+				713251B11F72117000ECD3B4 /* chef-animation-9.tiff in Resources */,
 				713250DF1F71C0EB00ECD3B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
